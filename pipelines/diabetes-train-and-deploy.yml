@@ -9,7 +9,7 @@ variables:
   ml-aks-name: 'aks-prod' # AKS cluster name
 
 trigger:
-- master
+- azure-pipelines
 
 pool:
   vmImage: 'Ubuntu-16.04'
